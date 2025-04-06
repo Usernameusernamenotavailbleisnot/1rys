@@ -1,0 +1,29 @@
+# General settings
+general:
+  hours_between_runs: 25  # Hours to wait between full runs
+  games_per_wallet: 5     # How many games to play per wallet per run
+
+# Features control
+features:
+  faucet_enabled: true   # Set to false to disable faucet claiming
+  game_enabled: true      # Set to false to disable game playing
+
+# Wallet configuration
+wallets:
+  private_key_file: "pk.txt"  # File containing private keys, one per line
+
+# Faucet settings
+faucet:
+  delay_between_claims: 5  # Seconds to wait between claims
+
+# Captcha solving settings
+captcha:
+  api_key: ""  # Your Capsolver API key
+
+# Game simulation settings
+game:
+  min_score: 10      # Minimum random score to generate
+  max_score: 50     # Maximum random score to generate
+  min_play_time: 5  # Minimum seconds to simulate gameplay
+  max_play_time: 15  # Maximum seconds to simulate gameplay
+  delay_between_games: 10  # Seconds to wait between games
