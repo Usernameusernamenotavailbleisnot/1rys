@@ -1,0 +1,16 @@
+{
+  "name": "1rys-arcade-automation",
+  "version": "1.0.0",
+  "description": "Automation script for 1rys Arcade",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@irys/upload": "^0.0.15",
+    "@irys/upload-ethereum": "^0.0.16",
+    "axios": "^1.6.2",
+    "ethers": "^5.7.2",
+    "js-yaml": "^4.1.0"
+  }
+}
